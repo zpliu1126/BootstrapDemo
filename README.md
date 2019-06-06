@@ -2,7 +2,7 @@
 there are some Demos  by using Bootstrap frame
 ## [Official Document](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
-### 引用规则 <Bootstrap4>
+### 引用规则
 
 <pre>
 &ltlink rel="stylesheet" type="text/css" href="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.css"&gt
