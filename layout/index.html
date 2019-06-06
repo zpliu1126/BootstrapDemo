@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+	<title>layout</title>
+	<link rel="stylesheet" type="text/css" href="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.css">
+<script src="https://zpliu1126.github.io/assets/jquery/jquery-3.2.1.min.js" charset="utf-8" ></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/popper.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<link rel="stylesheet" type="text/css" href="./stytle.css">
+</head>
+<body>
+	<div class="content">
+<div id="width">
+		<div class="container test-container">
+		
+	</div>
+	<div class="container-fluid test-container-fluid">
+	</div>
+	<div class="container">
+	<ul>
+	<li>container居中占据80%</li>
+			<li>container-fluid占据整个屏幕</li>
+	</ul>
+	<p class="text-left">
+	Bootstrap优先响应移动设备所以大部分都是基于手机窗口大小的media
+		主要断点有576px、768px、992px、1200px
+		对应的描述sm、md、lg、xl</p>
+		
+	</div>
+</div>
+<div id="grid">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-sm">占据1-4列</div>
+			<div class="col-sm">占据5-8列</div>
+			<div class="col-sm">占据9-12列</div>
+		</div>
+		<p>
+			grid栅格系统需要放置在container类中才会生效，默认一行有12列。所以使用row类将所有的元素放在同一行，每一个元素占据的宽度就为12/元素数目
+			对于不同的设备·1可以使用不同的col-sm、col-md、col-lg、col-xl
+		</p>
+		指定元素占据的宽度只需要声明列就行
+		<ul>
+			<li>col-sm-4占据3分之一的container</li>
+			<li>col-lg-4占据3分之一的container</li>
+			<li>col-md-4占据3分之一的container</li>
+			<li>col-xl-4占据3分之一的container</li>
+		</ul>
+		同样在一行中还可以不均等的进行列的分割
+		<div class="row text-center">
+			<div class="col-sm">占据1-3列</div>
+			<div class="col-sm-6">占据4-9列</div>
+			<div class="col-sm">占据10-12列</div>
+		</div>
+	<pre class="text-left">
+&ltdiv class="container"&gt
+&ltdiv class="row"&gt
+&ltdiv class="col-sm"&gt占据1-4列&lt/div&gt
+&ltdiv class="col-sm"&gt占据5-8列&lt/div&gt
+&ltdiv class="col-sm"&gt占据9-12列&lt/div&gt
+&lt/div&gt
+&lt/div&gt
+	</pre>	
+	</div>	
+</div>
+<div id="align">
+	<div class="container">
+		<div class="row text-center align-items-start" style="height: 300px;background: #ff9478;">
+			<div class="col col-sm">占据1-4列</div>
+			<div class="col col-sm">占据5-8列</div>
+			<div class="col col-sm">占据9-12列</div>
+		</div>
+		<hr>
+		<div class="row align-items-center text-center" style="height: 300px;background: #ff9478;">
+			<div class="col col-sm">占据1-4列</div>
+			<div class="col col-sm">占据5-8列</div>
+			<div class="col col-sm">占据9-12列</div>
+		</div>
+		<hr>		
+		<div class="row align-items-end text-center" style="height: 300px;background: #ff9478;">
+			<div class="col col-sm">占据1-4列</div>
+			<div class="col col-sm">占据5-8列</div>
+			<div class="col col-sm">占据9-12列</div>
+		</div>
+	align-items设置垂直对齐方式,要设置包裹元素的行高
+	<ul>
+		<li>align-items-start</li>
+		<li>align-items-center</li>
+		<li>align-items-end</li>
+	</ul>
+	</div>
+<div class="container">
+	<div class="row" style="height: 300px;background: #ff9478;">
+	<div class="col col-sm-4 align-self-center">占据1-4列</div>
+	<div class="col col-sm-4 align-self-start">占据5-8列</div>
+	<div class="col col-sm-4 align-self-end">占据9-12列</div>
+	</div>
+	align-self设置另外一种垂直对齐方式
+</div>
+<hr>
+<div class="container">
+	<div class="row justify-content-start">
+	<div class="col col-sm-4 align-self-center">占据1-4列</div>
+	<div class="col col-sm-4 align-self-start">占据5-8列</div>
+	</div>	
+	<div class="row justify-content-center">
+	<div class="col col-sm-4 align-self-center">占据1-4列</div>
+	<div class="col col-sm-4 align-self-start">占据5-8列</div>
+	</div>	
+	<div class="row justify-content-end">
+	<div class="col col-sm-4 align-self-center">占据1-4列</div>
+	<div class="col col-sm-4 align-self-start">占据5-8列</div>
+	</div>	
+	<div class="row justify-content-around">
+	<div class="col col-sm-4 align-self-center">占据1-4列</div>
+	<div class="col col-sm-4 align-self-start">占据5-8列</div>
+	</div>	
+	<div class="row justify-content-between">
+	<div class="col col-sm-4 align-self-center">占据1-4列</div>
+	<div class="col col-sm-4 align-self-start">占据5-8列</div>
+	</div>
+水平居中justify-content
+<ul>
+	<li>start</li>
+	<li>center</li>
+	<li>end</li>
+	<li>around</li>
+	<li>between</li>
+</ul>
+</div>
+还有设置显示的顺序 order-last与order-first
+设置偏移量 offset-md-4
+</div>
+
+
+<div class="container">
+<p>
+	总结一下bootstrap中的主角布局
+</p>
+<ul class="text-danger">
+	<li> container、container-fluid</li>
+	<li>垂直居中对齐方式 align-items-center、align-self-center需要设置父元素的高度</li>
+	<li>水平居中方式justify-content-cneter</li>
+	<li>order-last与order-first显示顺序</li>
+	<li>offset-md-4偏移量，有没有负的偏移量还没看到</li>
+</ul>
+</div>
+</div>
+	
+</body>
+</html>

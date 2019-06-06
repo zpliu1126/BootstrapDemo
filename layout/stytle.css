@@ -1,0 +1,21 @@
+body{
+	font-family: Microsoft YaHei;/* 设置字体为微软雅黑 */
+	font-size: 1.5rem;
+}
+pre{
+	background-color: black;
+	color: white;
+}
+.test-container{
+	background: #19b5fe;
+	height: 200px;
+}
+.test-container-fluid{
+	background: #3498db;
+	height: 200px;
+}
+
+.col-sm,.col-sm-6,.col-sm-4{
+	background-color: #cf000f;
+	border: 1px solid #00e640;
+}
