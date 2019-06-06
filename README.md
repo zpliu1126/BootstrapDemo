@@ -13,3 +13,4 @@ there are some Demos  by using Bootstrap frame
 ```
 - [layout](https://zpliu1126.github.io/BootstrapDemo/layout/)
 - [table](https://zpliu1126.github.io/BootstrapDemo/table/)
+- [alert](https://zpliu1126.github.io/BootstrapDemo/alert/)

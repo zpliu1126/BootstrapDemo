@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+	<title>Alert</title>
+	<link rel="stylesheet" type="text/css" href="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.css">
+<script src="https://zpliu1126.github.io/assets/jquery/jquery-3.2.1.min.js" charset="utf-8" ></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/popper.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<link rel="stylesheet" type="text/css" href="./stytle.css">
+</head>
+<body>
+	<div class="alert alert-danger">
+		<a href="#" class="close" data-dismiss="alert">&times</a>
+		<strong>cheng</strong>
+	</div>
+	<div class="alert alert-danger">
+		<a href="#" class="close" >&times</a>
+		<strong>cheng2</strong>
+	</div>
+关闭alert窗口的办法
+<ol>
+	<li>使用a标签，设置其close类、使用data-dismiss="alert"</li>
+	<li>使用js绑定点击事件之后，对alert元素使用alert函数</li>
+</ol>
+使用data-dismiss的方法可以单个单个的关闭
+而js的方法在绑定事件的时候就需要精确到单个alert元素，不然会关闭当前所有的alert
+<pre>
+	&lta href="#" class="close" data-dismiss="alert"&gt&times&lt/a&gt
+	$(".close").click(function(){
+			$(".alert").alert("close");
+		})
+</pre>
+
+深入了解的话可以看这个博客
+<a href="https://www.cnblogs.com/cpcpc/p/7233898.html">https://www.cnblogs.com/cpcpc/p/7233898.html</a>
+	<script  type="text/javascript" charset="utf-8" async defer>
+	
+		$(".close").click(function(){
+			$(".alert").alert("close");
+		})
+	</script>
+</body>
+</html>
