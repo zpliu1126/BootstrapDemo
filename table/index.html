@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+	<title>Table</title>
+	<link rel="stylesheet" type="text/css" href="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.css">
+<script src="https://zpliu1126.github.io/assets/jquery/jquery-3.2.1.min.js" charset="utf-8" ></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/popper.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<link rel="stylesheet" type="text/css" href="./stytle.css">
+</head>
+<body>
+	<div class="container">
+		<table class="table table-dark">
+			<thead>
+				<tr>
+				<th>#</th>
+				<th>First</th>
+				<th>Last</th>
+				<th>Handle</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+				<th>1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>2</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>3</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>
+			</tbody>
+		</table>
+			<p>table的主要结构
+		<ul>
+			<li>table标签</li>
+			<li>thead标签，内部使用tr加th标签</li>
+			<li>tbody标签，使用tr加td标签</li>
+		</ul>
+	</p>
+<p>
+	table的修饰table-dark、table-striped
+	仅仅修饰表头 thead-dark、thead-light
+</p>
+<table class="table">
+			<thead class="thead-dark">
+				<tr>
+				<th>#</th>
+				<th>First</th>
+				<th>Last</th>
+				<th>Handle</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>2</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>3</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>
+			</tbody>
+		</table>
+<pre>
+&lttable class="table"&gt
+&ltthead class="thead-dark"&gt
+	&lttr&gt
+		&ltth&gt#&lt/th&gt
+		&ltth&gtFirst&lt/th&gt
+		&ltth&gtLast&lt/th&gt
+	&ltth&gtHandle&lt/th&gt&lt/tr&gt
+		&lt/thead&gt
+	&lttbody&gt
+		&lttr&gt
+		&ltth&gt1&lt/th&gt
+		&lttd&gtMark&lt/td&gt
+		&lttd&gtOtto&lt/td&gt
+		&lttd&gt@mdo&lt/td&gt
+		&lt/tr&gt
+	&lt/tbody&gt
+&lt/table&gt		
+</pre>
+<p>text-bordered 与table-striped条纹相间与带边框、table-borderless无边框</p>
+		<table class="table table-dark table-striped table-bordered">
+			<thead>
+				<tr>
+				<th>#</th>
+				<th>First</th>
+				<th>Last</th>
+				<th>Handle</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+				<th>1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>2</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>3</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>
+			</tbody>
+		</table><table class="table table-dark  table-borderless">
+			<thead>
+				<tr>
+				<th>#</th>
+				<th>First</th>
+				<th>Last</th>
+				<th>Handle</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+				<th>1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>2</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>3</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>
+			</tbody>
+		</table>
+		给表内容元素添加悬浮式状态的改变
+		<table class="table  table-dark table-bordered table-hover">
+			<thead>
+				<tr>
+				<th>#</th>
+				<th>First</th>
+				<th>Last</th>
+				<th>Handle</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+				<th>1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>2</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>3</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>
+			</tbody>
+		</table><div class="table-responsive"><table class="table  table-dark table-bordered table-hover ">
+			<thead>
+				<tr>
+				<th>#</th>
+				<th>First</th>
+				<th>Last</th>
+				<th>Handle</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+				<th>1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>2</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>				
+				<tr>
+					<th>3</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>
+			</tbody>
+		</table></div>
+</div>
+<footer>
+	<p>总结一下table主要的类</p>
+	<ul class="text-danger">
+		<li>table-dark</li>
+		<li>table-striped</li>
+		<li>table-responsive</li>
+		<li>table-bordered</li>
+		<li>table-borderlesse</li>
+		<li>对tbody中每行元素设置bg-primary或者table-primary</li>
+		<li>table-hover</li>
+	</ul>
+</footer>
+</body>
+</html>

@@ -12,3 +12,4 @@ there are some Demos  by using Bootstrap frame
 <script src="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
 ```
 - [layout](https://zpliu1126.github.io/BootstrapDemo/layout/)
+- [table](https://zpliu1126.github.io/BootstrapDemo/table/)
