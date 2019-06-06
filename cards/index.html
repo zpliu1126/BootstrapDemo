@@ -12,8 +12,9 @@
 <link rel="stylesheet" type="text/css" href="./stytle.css">
 </head>
 <body>
-	<div class="container-fluid">
-<div class="card col-6" style="float: left;" >
+<div class="container-fluid">
+<div class="row">
+<div class="card col-6" >
 		<img src="./3.jpg" class="card-img-top" alt="">
 		<div class="card-body">
 			<h2 class="card-title">Cards title</h2>
@@ -28,21 +29,58 @@
 				<p class="card-text">黄果树的瀑布</p>
 				<a href="#" class="card-link badge badge-pill badge-danger" style="float: right;">Read More</a>
 		</div>
+</div>
+
+<div class="card text-center col-12">
+	<div class="card-header">
+		Feature	
 	</div>
-	<div style="clear: both;">
-		
+	<div class="card-body col-12">
+		<div class="card-title">文字卡片标题</div>
+		<div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<a href="#" class="card-link badge badge-pill badge-dark">Read More</a>
+		<div class="card-footer text-muted">
+			发表于2019-6-6
+		</div>
 	</div>
+</div>
+<div class="card text-center col-12">
+<div class="row">
+	<img src="1.jpg" class="card-img col-7" alt="">
+	<div class="card-body col-5">
+		<div class="card-title">美丽的皮囊千篇一律 有趣的灵魂万里挑一</div>
+		<div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<a href="#" class="card-link badge badge-pill badge-dark">Read More</a>
+		<div class="card-footer text-muted">
+			发表于2019-6-6
+		</div>
+	</div>
+</div>
+</div>
+</div>
+	<div style="clear: both;"></div>
 	<hr>
 <p>
-	总结使用card类显示图片卡片的主要类
+	总结使用card类显示图片卡片的主要类,这些基本和是哪个就够用了
 	<ul>
+		<li>使用row类使得卡片在同一行显示，默认是会换行的</li>
 		<li>card</li>
 		<li>card-img-top显示图片的位置</li>
 		<li>card-body主要的描述性说明</li>
 		<li>card-title</li>
 		<li>card-text</li>
 		<li>card-link</li>
-
+		<li>将card-img与card-body并排显示，需要使用一个row类将两者包裹起来</li>
 	</ul>
 </p>
 </div>
