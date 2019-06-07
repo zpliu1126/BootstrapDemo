@@ -1,0 +1,46 @@
+[{
+	"sitename":"start",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/",
+	"siteorder":0
+},{
+	"sitename":"layout",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/layout",
+	"siteorder":1
+},{
+	"sitename":"table",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/table",
+	"siteorder":1
+},{
+	"sitename":"alert",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/alert",
+	"siteorder":1
+},{
+	"sitename":"cards",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/cards",
+	"siteorder":1
+},{
+	"sitename":"carousel",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/carousel",
+	"siteorder":1
+},{
+	"sitename":"collapse",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/collapse",
+	"siteorder":1
+},{
+	"sitename":"modal",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/modal",
+	"siteorder":1
+},{
+	"sitename":"pagination",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/pagination",
+	"siteorder":1
+},{
+	"sitename":"scrollspy",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/scrollspy",
+	"siteorder":1
+},{
+	"sitename":"spinner&tooltip",
+	"siteurl":"https://zpliu1126.github.io/BootstrapDemo/spinner",
+	"siteorder":1
+}
+]
