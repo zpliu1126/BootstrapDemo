@@ -37,7 +37,29 @@ Loading...
 &lt/button&gt
 </pre>
 
+<p>最后一个提示组件tooltip</p>
+需要js支持
+<pre>
+&ltscript type="text/javascript"&gt
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+&lt/script&gt
+</pre>
 
+<ul>
+	<li>指定data-toggle="tooltip"</li>
+	<li>data-html="true"时可以自己定制显示的提示</li>
+	<li>data-placement="left"提示显示的位置</li>
+</ul>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="11">
+  Tooltip with HTML
+</button>
+<script type="text/javascript">
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
 </div>
 </body>
 </html>
