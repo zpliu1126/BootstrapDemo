@@ -18,3 +18,4 @@ there are some Demos  by using Bootstrap frame
 - [bandage看起来挺漂亮的](https://getbootstrap.com/docs/4.3/components/badge/)
 - [cards](https://zpliu1126.github.io/BootstrapDemo/cards/)
 - [carousel](https://zpliu1126.github.io/BootstrapDemo/carousel/)
+- [collapse](https://zpliu1126.github.io/BootstrapDemo/collapse/)
