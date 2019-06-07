@@ -24,3 +24,4 @@ there are some Demos  by using Bootstrap frame
 - [modal](https://zpliu1126.github.io/BootstrapDemo/modal/)
 - [pagination](https://zpliu1126.github.io/BootstrapDemo/pagination/)
 - [scrollspy](https://zpliu1126.github.io/BootstrapDemo/scrollspy/)
+- [spinner](https://zpliu1126.github.io/BootstrapDemo/spinner/)
