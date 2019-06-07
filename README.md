@@ -19,3 +19,4 @@ there are some Demos  by using Bootstrap frame
 - [cards](https://zpliu1126.github.io/BootstrapDemo/cards/)
 - [carousel](https://zpliu1126.github.io/BootstrapDemo/carousel/)
 - [collapse](https://zpliu1126.github.io/BootstrapDemo/collapse/)
+- [modal](https://zpliu1126.github.io/BootstrapDemo/modal/)
