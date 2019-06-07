@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+	<title>Cards</title>
+	<link rel="stylesheet" type="text/css" href="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.css">
+<script src="https://zpliu1126.github.io/assets/jquery/jquery-3.2.1.min.js" charset="utf-8" ></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/popper.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<link rel="stylesheet" type="text/css" href="./stytle.css">
+</head>
+<body>
+<div class="container-fluid">
+<p>
+	<a class="badge badge-pill badge-danger" href="#collapse1" data-toggle="collapse">Toggle first Element</a>
+	<a class="badge badge-pill badge-primary" href="#collapse2" data-toggle="collapse">Toggle second Element</a>
+	<a class="badge badge-pill badge-primary" href=".collapse" data-toggle="collapse">Toggle All Element</a></p>
+<div class="row">
+	<div class="col">
+		<div class="collapse multi-collapse" id="collapse1">
+			<div class="card card-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				
+			</div>
+		</div>	
+		<div class="col">
+		<div class="collapse multi-collapse" id="collapse2">
+			<div class="card card-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				
+			</div>
+		</div>	
+	</div>
+	总结一下collapse的用法
+	<ul class="text-danger">
+		<li>折叠的内容使用collapse类，多个折叠块加上multi-collapse</li>
+		<li>分别对每一个折叠块加上对应的Id</li>
+		<li>触发按钮，使用href制定到对应的ID编号，或者使用class类对所有的折叠块进行操作；指定数据切换类型为data-toggle="collapse"</li>
+
+	</ul>
+	
+</div>
+</div>
+</body>
+</html>
