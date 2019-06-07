@@ -25,5 +25,6 @@ there are some Demos  by using Bootstrap frame
 - [scrollspy](https://zpliu1126.github.io/BootstrapDemo/scrollspy/)
 - [spinner&tooltip](https://zpliu1126.github.io/BootstrapDemo/spinner/)
 
-
-<button type="button"><a href="">Begin Learn</a></button>
+<div style="text-align: center;">
+	<button type="button"><a href="https://zpliu1126.github.io/BootstrapDemo/layout">Begin Learn</a></button>
+</div>
