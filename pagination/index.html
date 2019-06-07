@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+	<title>pagination</title>
+	<link rel="stylesheet" type="text/css" href="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.css">
+<script src="https://zpliu1126.github.io/assets/jquery/jquery-3.2.1.min.js" charset="utf-8" ></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/popper.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="https://zpliu1126.github.io/assets//bootstrap/4/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<link rel="stylesheet" type="text/css" href="./stytle.css">
+</head>
+<body>
+	<div class="container">
+	<nav class="pagination pagination-lg justify-content-center">
+		<li class="page-item disabled "><a class="page-link" href="#" aria-label="previous"><span>&laquo;</span></a></li>
+		<li class="page-item active"><a class="page-link" href="#">1</a></li>
+		<li class="page-item"><a class="page-link" href="#">2</a></li>
+		<li class="page-item"><a class="page-link" href="#">3</a></li><li class="page-item"><a class="page-link" href="#">1</a></li>
+		<li class="page-item"><a class="page-link" href="#" aria-label="next"><span>&raquo;</span></a></li>
+	</nav>	
+<p>
+	总结分页码的美化
+</p>
+<ul class="text-danger">
+	<li>使用pagination类对nav标签进行修饰</li>
+	<li>在每一个li标签中使用page-item类修饰，li下的a标签使用page-link修饰</li>
+	<li>同样可以使用一些icon用于前一页和后一页，</li>
+	<li>分页显示的大小和位置，在nav标签中加上pagination-lg、justify-content-center</li>
+	<li>每个li中还可以加上active与disable状态栏</li>
+</ul>
+<pre>
+	&ltnav class="pagination pagination-lg justify-content-center"&gt
+		&ltli class="page-item disabled "&gt&lta class="page-link" href="#" aria-label="previous"&gt&ltspan&gt&laquo;&lt/span&gt&lt/a&gt&lt/li&gt
+		&ltli class="page-item active"&gt&lta class="page-link" href="#"&gt1&lt/a&gt&lt/li&gt
+		&ltli class="page-item"&gt&lta class="page-link" href="#"&gt2&lt/a&gt&lt/li&gt
+		&ltli class="page-item"&gt&lta class="page-link" href="#"&gt3&lt/a&gt&lt/li&gt&ltli class="page-item"&gt&lta class="page-link" href="#"&gt1&lt/a&gt&lt/li&gt
+		&ltli class="page-item"&gt&lta class="page-link" href="#" aria-label="next"&gt&ltspan&gt&raquo;&lt/span&gt&lt/a&gt&lt/li&gt
+	&lt/nav&gt
+</pre>
+
+	</div>
+</body>
+</html>
