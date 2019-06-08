@@ -1,5 +1,4 @@
-
-	/*获取当前分类目录访问该目录下的index即可*/
+/*获取当前分类目录访问该目录下的index即可*/
 	var localpage=window.location.href.split("/")[window.location.href.split("/").length-2];
 	/*获取需要填充数据的标签*/
 	var prepage=document.getElementById("prepage").getElementsByTagName("a")[0]

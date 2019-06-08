@@ -26,5 +26,5 @@ there are some Demos  by using Bootstrap frame
 - [spinner&tooltip](https://zpliu1126.github.io/BootstrapDemo/spinner/)
 
 <div style="text-align: center;font-size: 1.5rem;font-family: Micrsof Ya Hei;">
-<button type="button" style="border :2px solid;border-color:transparent; border-radius: 20px;background-color:#cf000f; "><a href="https://zpliu1126.github.io/BootstrapDemo/layout" style="text-decoration: none;color:white;">Begin Learn</a></button>
+<a href="https://zpliu1126.github.io/BootstrapDemo/layout" style="text-decoration: none;color:white;border :2px solid;border-color:transparent; border-radius: 20px;background-color:#cf000f; ">Begin Learn</a>
 </div>
