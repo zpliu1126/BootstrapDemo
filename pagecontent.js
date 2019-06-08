@@ -17,7 +17,7 @@ if(xhttp.readyState==4&&xhttp.status==200){
 				/*这里的key其实和siteorde是一样的都是字符串哦*/
 				if(localpage==siteurl[key].sitename){
 					/*判断一下有没有走到最后一页,如果是的话就把下一页改成END*/
-					if (key==siteurl.length-1) {
+					if (parseInt(key)==siteurl.length-1) {
 						prepage.setAttribute("href",siteurl[key-1].siteurl);
 						nextpage.setAttribute("href","#");
 						nextpage.innerHTML="END";
