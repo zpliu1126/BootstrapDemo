@@ -15,11 +15,14 @@ if(xhttp.readyState==4&&xhttp.status==200){
 			for(var key in siteurl){			
 				/*根据当前站点信息，提取前后信息*/
 				/*这里的key其实和siteorde是一样的都是字符串哦*/
-				if(localpage==siteurl[key].sitename){
+				var jsonurl=siteurl[key].siteurl.split("/")[siteurl[key].siteurl.split("/").length-1]
+				if(localpage==jsonurl){
 					/*判断一下有没有走到最后一页,如果是的话就把下一页改成END*/
 					if (parseInt(key)==siteurl.length-1) {
 						prepage.setAttribute("href",siteurl[key-1].siteurl);
-						nextpage.setAttribute("href","#");
+						/*不可点击状态*/
+						nextpage.setAttribute("href","javascript:volid(0);");
+						nextpage.setAttribute("class","badge badge-pill badge-danger");
 						nextpage.innerHTML="END";
 						percent.innerHTML=siteurl[key].siteorder+'/'+String(siteurl.length-1);
 					}else{
