@@ -22,7 +22,7 @@ if(xhttp.readyState==4&&xhttp.status==200){
 						prepage.setAttribute("href",siteurl[key-1].siteurl);
 						/*不可点击状态*/
 						nextpage.setAttribute("href","javascript:volid(0);");
-						nextpage.setAttribute("class","badge badge-pill badge-danger");
+						nextpage.setAttribute("class","badge badge-pill badge-dark");
 						nextpage.innerHTML="END";
 						percent.innerHTML=siteurl[key].siteorder+'/'+String(siteurl.length-1);
 					}else{
